@@ -1,0 +1,14 @@
+#box_guy {
+	height:400px;
+	width: 400px;
+}
+#home_content {
+	text-align: center;
+}
+body {
+	background: #3b5998;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: x-large;
+}
