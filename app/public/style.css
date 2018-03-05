@@ -12,3 +12,27 @@ body {
 	font-weight: bold;
 	font-size: x-large;
 }
+#survey_btn {
+	background: white;
+	color: black;
+}
+#input_bar {
+	width: 40%;
+}
+#name_box {
+	margin-bottom: 15px;
+}
+#photo_box {
+	margin-bottom: 15px;
+}
+#submit_btn {
+	background: white;
+	color: black;
+}
+#submit {
+	background: white;
+	color: black;
+}
+#q10 {
+	margin-bottom: 15px;
+}
