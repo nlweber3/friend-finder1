@@ -14,10 +14,16 @@ require('./app/routing/apiRoutes.js')(app);
 require('./app/routing/htmlRoutes.js')(app);
 
 
-app.use(express.static(__dirname + "/app/css"));
+app.use(express.static(__dirname + "./app/public/style.css"));
 
 app.listen(PORT, function() {
 	console.log('app listening on PORT: ' + PORT);
 });
+
+
+
+var globalStyles = [
+    "style.css"
+];
 
 
