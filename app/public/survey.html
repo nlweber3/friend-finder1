@@ -141,14 +141,16 @@
 	</form>
 </div>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
 
-	$("#submit").on("click",function(event) {
+	$("#submit_btn").on("click",function(event) {
 			event.preventDefault();
+
+
 			var userData = {
-				name: $("#name").val().trim(),
-				photo: $("#photo").val().trim(),
+				name: $("#name_box").val().trim(),
+				photo: $("#photo_box").val().trim(),
 				scores: [
 					$("#q1").val(),
 					$("#q2").val(),
@@ -162,7 +164,7 @@
 					$("#q10").val()
 				]
 			};
-			$.post("/api/friends", userData ,function(data) {
+			$.post("./api/friends", userData ,function(data) {
 				console.log(data.name);
 				console.log(data.photo);
 				$("#friend-name").text(data.name);

@@ -5,6 +5,15 @@
 #home_content {
 	text-align: center;
 }
+.chosen-select {
+	color: black;
+}
+#name_box {
+	color:black;
+}
+#photo_box {
+	color:black;
+}
 body {
 	background: #3b5998;
 	color: white;
