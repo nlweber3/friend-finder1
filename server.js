@@ -14,7 +14,7 @@ require('./app/routing/apiRoutes.js')(app);
 require('./app/routing/htmlRoutes.js')(app);
 
 
-app.use(express.static(__dirname + "./app/public/style.css"));
+app.use(express.static(__dirname + "/app/public"));
 
 app.listen(PORT, function() {
 	console.log('app listening on PORT: ' + PORT);
